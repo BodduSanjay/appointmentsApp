@@ -1,0 +1,40 @@
+/* Write your CSS here */
+* {
+  font-family: Roboto;
+}
+
+li {
+  width: 280px;
+  height: 120px;
+  border: 1px gray solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+}
+
+.title-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 95%;
+  height: 50%;
+  align-items: center;
+}
+
+h1 {
+  font-size: 15px;
+}
+
+buttom {
+  background-color: transparent;
+  border: none;
+}
+
+.para {
+  color: darkgray;
+  height: 40%;
+  width: 95%;
+  font-size: 15px;
+}
